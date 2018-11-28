@@ -8,15 +8,13 @@ spec:
   selector:
     matchLabels:
       app: hello
-      tier: web
   template:
     metadata:
       labels:
         app: hello
-        tier: web
     spec:
       containers:
       - name: hello-app
-        image: gcr.io/google-samples/hello-app:1.0
+        image: gcr.io/mokeefe-empathy/helloapp:v1
         ports:
         - containerPort: 8080
