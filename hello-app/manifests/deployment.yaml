@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: hello
+        tier: web
     spec:
       containers:
       - name: hello-app
