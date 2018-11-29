@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: moonfacts
-        image:  gcr.io/mokeefe-sandbox/moonfacts:latest
+        image:  gcr.io/mokeefe-empathy/moonfacts:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 2345

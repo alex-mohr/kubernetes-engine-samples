@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: moonphases
-        image:  gcr.io/mokeefe-sandbox/moonphases:latest
+        image:  gcr.io/mokeefe-empathy/moonphases:latest
         imagePullPolicy: Always
         args:
         - "--city=Seattle, WA"
