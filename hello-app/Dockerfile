@@ -1,5 +1,5 @@
 FROM golang:1.8-alpine
-ADD ./helloapp/ /go/src/hello-app
+ADD hello-app/ /go/src/hello-app
 WORKDIR /go/src/hello-app
 RUN go install hello-app
 
