@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: moonsite-lb 
+spec:
+  type: LoadBalancer
+  selector:
+    app: moonsite
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 5000
